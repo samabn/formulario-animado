@@ -1,0 +1,38 @@
+*, :root, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+    color: #212121;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    justify-content: center; /* ALINEA DE MANERA HORIZONTAL */
+    align-items: center; /* ALINEA DE MANERA VERTICAL */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.form {
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.grupo {
+    position: relative;
+    margin: 45px;
+}
+
+.input-field {
+    background: transparent;
+}
